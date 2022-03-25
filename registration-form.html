@@ -83,9 +83,65 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+
+    <!--Registration Steps-->
+
+    <section id="registration" class=" section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Registration Steps</h2>
+
+          <h3 style="color: #47b2e4;">
+            <div class="icon"><i class="bi bi-bar-chart-steps"></i></div>
+          </h3>
+
+
+          <p> To register to the event, follow these steps accurately </p>
+          <p>A detailed guide is provided on this link <a
+              href="https://acmpsu.com/pjam/ProgrammingJamGuide6.pdf">Download the guide</a></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 scrollpoint">
+            <ul>
+              <li class="py-2">
+                Build a team from University students
+              </li>
+
+              <li class="py-2">
+                Create an account for the team in <a href="https://www.hackerrank.com/programming-jam">Hackerrank</a>
+              </li>
+
+
+              <li class="py-2">
+                Choose a faculty member from your University as mentor
+              </li>
+
+              <li class="py-2">
+                Register the team <a href="#reg" class="scrollto">here</a>
+              </li>
+
+              <li class="py-2">
+                Then, the mentor should contact us on <a href="mailto:pjam@psu.edu.sa" target="_blank">pjam@psu.edu.sa
+                </a> to confirm your team registration
+              </li>
+              <li class="py-2">
+                Choose a faculty member from your University as mentor
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+    </section>
+    <!--End of Registration Steps-->
+
+
     <section class="inner-page">
       <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
+      <section id="reg" class="contact">
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
@@ -95,11 +151,14 @@
             </p>
 
 
-            <div class="alert alert-warning" role="alert">
-              Before Registration, please create account on Hackerrank. The guidelines are available here:
 
-              <a href="http://acmpsu.com/pjam/ProgrammingJamGuide6.pdf">http://acmpsu.com/pjam/ProgrammingJamGuide6.pdf
-              </a>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <Strong> Before Registration, please create account on Hackerrank. The guidelines are available here:
+
+                <a href="http://acmpsu.com/pjam/ProgrammingJamGuide6.pdf">http://acmpsu.com/pjam/ProgrammingJamGuide6.pdf
+                </a>
+              </Strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
 
@@ -111,16 +170,16 @@
               <!--General Information-->
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
-                  <p class=" text-center display-5">General Information</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">General Information</p>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Your Email</label>
+                    <label for="email" class=" text-primary">Your Email</label>
                     <input type="email" class="form-control" name="email" id="email" required>
 
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">University </label>
+                    <label for="name" class=" text-primary">University </label>
                     <input type="text" name="Uni" class="form-control" id="Uni" required>
                   </div>
 
@@ -128,31 +187,31 @@
                 <div class="row">
 
                   <div class="form-group col-md-6">
-                    <label for="name">Department</label>
+                    <label for="name" class=" text-primary">Department</label>
                     <input type="text" class="form-control" name="dep" id="dep" required>
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Team Name</label>
+                    <label for="name" class=" text-primary">Team Name</label>
                     <input type="text" class="form-control" name="teamName" id="teamName" required>
                   </div>
                 </div>
 
                 <!--Leader Information-->
                 <div class="row">
-                  <p class=" text-center display-5">Leader Information</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">Leader Information</p>
 
 
                 </div>
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Leader Name</label>
+                    <label for="name" class=" text-primary">Leader Name</label>
                     <input type="text" class="form-control" name="leaderName" id="leaderName" required>
 
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Leader Hackerrank ID </label>
+                    <label for="name" class=" text-primary">Leader Hackerrank ID </label>
                     <input type="text" name="lid" class="form-control" id="lid" required>
                   </div>
                 </div>
@@ -160,13 +219,13 @@
                 <div class="row">
 
                   <div class="form-group col-md-6">
-                    <label for="name">Leader University ID</label>
+                    <label for="name" class=" text-primary">Leader University ID</label>
                     <input type="text" name="luid" class="form-control" id="luid" required>
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Leader University Email</label>
-                    <input placeholder="only official University email is accepted" type="email" name="LeaderUniMail"
+                    <label for="name" class=" text-primary">Leader University Email</label>
+                    <input placeholder="Only Official University Email is Accepted" type="email" name="LeaderUniMail"
                       class="form-control" id="LeaderUniMail" required>
                   </div>
 
@@ -175,7 +234,7 @@
                 <div class="row">
 
                   <div class="form-group">
-                    <label for="name">Leader Mobile Phone</label>
+                    <label for="name" class=" text-primary">Leader Mobile Phone</label>
                     <input type=" text" name="leaderPhoNum" class="form-control" id="leaderPhoNum" required>
                   </div>
                 </div>
@@ -183,25 +242,25 @@
 
                 <!--Member 2 Information-->
                 <div class="row">
-                  <p class=" text-center display-5">Member Two Information</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">Member Two Information</p>
 
 
                 </div>
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Member Two Name</label>
+                    <label for="name" class=" text-primary">Member Two Name</label>
                     <input type="text" class="form-control" name="MemberTwoName" id="MemberTwoName" required>
 
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Member Two NameHackerrank ID </label>
+                    <label for="name" class=" text-primary">Member Two Hackerrank ID </label>
                     <input type="text" name="MemberTwoid" class="form-control" id="MemberTwoid" required>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label for="name">Member Two Name University ID</label>
+                  <label for="name" class=" text-primary">Member Two University ID</label>
                   <input type="text" name="MemberTwoUniId" class="form-control" id="MemberTwoUniId" required>
                 </div>
 
@@ -209,25 +268,25 @@
 
                 <!--Member 3 Information-->
                 <div class="row">
-                  <p class=" text-center display-5">Member Three Information (Optional)</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">Member Three Information (Optional)</p>
 
 
                 </div>
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Member Three Name</label>
+                    <label for="name" class=" text-primary">Member Three Name</label>
                     <input type="text" class="form-control" name="MemberThreeName" id="MemberThreeName">
 
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Member Three NameHackerrank ID </label>
+                    <label for="name" class=" text-primary">Member Three Hackerrank ID </label>
                     <input type="text" name="MemberThreeId" class="form-control" id="MemberThreeId">
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label for="name">Member Three Name University ID</label>
+                  <label for="name" class=" text-primary">Member Three Name University ID</label>
                   <input type="text" name="MemberThreeUniId" class="form-control" id="MemberThreeUniId">
                 </div>
 
@@ -236,24 +295,24 @@
                 <!--Mentor Information-->
 
                 <div class="row">
-                  <p class=" text-center display-5">Faculty Mentor Information</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">Faculty Mentor Information</p>
                 </div>
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Faculty Mentor Name</label>
+                    <label for="name" class=" text-primary">Faculty Mentor Name</label>
                     <input type="text" class="form-control" name="FacultyMentorName" id="FacultyMentorName" required>
 
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="name">Faculty Mentor Email</label>
-                    <input placeholder="only official University email is accepted" type="email"
+                    <label for="name" class=" text-primary">Faculty Mentor Email</label>
+                    <input placeholder="Only Official University Email is Accepted" type="email"
                       name="FacultyMentorEmail" class="form-control" id="FacultyMentorEmail" required>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label for="name">Faculty Mentor Phone Number</label>
+                  <label for="name" class=" text-primary">Faculty Mentor Phone Number</label>
                   <input type="text" name="FacultyMentorPhoNum" class="form-control" id="FacultyMentorPhoNum" required>
                 </div>
 
@@ -261,11 +320,12 @@
                 <!--Documents-->
 
                 <div class="row">
-                  <p class=" text-center display-5">Documents</p>
+                  <p class=" text-center display-5" style="color: #f9a01b ;">Documents</p>
                 </div>
                 <div class="row">
                   <div class="form-group">
-                    <label for="name">Upload your student Id card or University Letter stating your valid student
+                    <label for="name" class=" text-primary">Upload your student Id card or University Letter stating
+                      your valid student
                       ID (Programming Jam team may contact you for additional information)</label>
                     <input type="file" class="form-control" name="FacultyMentorName" id="FacultyMentorName" required>
                   </div>
@@ -273,11 +333,11 @@
                   <!--Comments, suggestions and expectations-->
 
                   <div class="row">
-                    <p class=" text-center display-5">Feedback</p>
+                    <p class=" text-center display-5" style="color: #f9a01b ;">Feedback</p>
                   </div>
 
                   <div class="form-group">
-                    <label for="name">Comments, suggestions and expectations </label>
+                    <label for="name" class="text-primary">Comments, suggestions and expectations </label>
                     <textarea class="form-control" name="message" rows="5"></textarea>
                   </div>
 
